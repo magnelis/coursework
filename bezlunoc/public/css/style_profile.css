@@ -1,0 +1,238 @@
+.section__profile__for__user {
+    width: 1200px;
+    margin: 130px auto 0 auto;
+}
+
+.block__for__header__profile__for__user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.header__profile__for__user {
+    font-size: 18px;
+    color: rgba(208, 208, 208, 0.4);
+}
+
+.block__for__btns__section__profile__for__user {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 60px;
+}
+
+.btn__header__profile__for__user {
+    color: #D0D0D0;
+    text-decoration: none;
+    background-size: 150%;
+    border-radius: 5px;
+    padding: 10px 33px;
+    background: linear-gradient(#151515, #151515) padding-box,
+    linear-gradient(128.73deg, #8FB5FE 15.24%, #FF1940 62.7%, #FFB56A 110.34%) border-box;
+    font-weight: 500;
+    border: 1px solid transparent;
+}
+
+.btn__header__profile__for__user:hover {
+    animation: animateBtn 5s linear infinite;
+    color: #D0D0D0;
+    background-size: 150%;
+}
+
+.btn__block__for__btns__section__profile__for__user {
+    margin-right: 30px;
+}
+
+.header__two__profile__for__user {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: rgba(208, 208, 208, 0.4);
+}
+
+.table__custom__profile__for__user {
+    width: 1200px;
+}
+
+.table__custom__profile__for__user th {
+    font-weight: 500;
+    padding: 10px 0;
+    border-bottom: 1px solid #D0D0D0;
+}
+
+.table__custom__profile__for__user td {
+    border-bottom: 1px solid #D0D0D0;
+    padding: 15px 0;
+    height: 70px;
+}
+
+.btn__for__destroy__profile {
+    color: #D0D0D0;
+    background: #151515;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 33px;
+    border: 1px solid #FF1940;
+}
+
+.btn__for__destroy__profile:hover {
+    color: #D0D0D0;
+    background: #101010;
+}
+
+/* Update profile */
+
+.btn__return__to__back__profile {
+    color: #D0D0D0;
+    background: #151515;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 5px 20px;
+    border: 1px solid #FFB56A;
+}
+
+.btn__return__to__back__profile:hover {
+    color: #D0D0D0;
+    background: #101010;
+}
+
+.info__about__user__profile__for__user {
+    margin-top: 60px;
+}
+
+.form__info__about__user__profile__for__user {
+    width: 385px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.block__for__input__form__section__profile__for__user {
+    display: flex;
+    flex-direction: column;
+}
+
+.label__custom__input__form__section__profile__for__user {
+    margin-bottom: 10px;
+    color: #D0D0D0;
+}
+
+.custom__input__form__section__profile__for__user {
+    background: #151515;
+    border: 1px solid rgba(208, 208, 208, 0.2);
+    border-radius: 3px;
+    padding: 10px;
+    color: #D0D0D0;
+}
+
+.custom__input__form__section__profile__for__user:hover {
+    background: #101010;
+}
+
+.btns__btn__for__edit__save__user {
+    width: 385px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn__for__edit__save__user {
+    text-decoration: none;
+    margin-top: 30px;
+    color: #D0D0D0;
+    background: #151515;
+    border: 1px solid #8FB5FE;
+    border-radius: 5px;
+    padding: 10px 33px;
+}
+
+.btn__for__edit__save__user:hover {
+    background: #101010;
+    color: #D0D0D0;
+}
+
+/* Update password */
+
+.block__for__label__input__form__section__reg__for__user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.btn__info__profile__for__user {
+    background: #151515;
+    border: none;
+}
+
+.img__btn__profile__for__user {
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+}
+
+@media (max-width: 1200px) {
+    .section__profile__for__user {
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .section__profile__for__user {
+        width: 700px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section__profile__for__user {
+        width: 400px;
+    }
+
+    .block__for__header__profile__for__user {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 30px;
+    }
+
+    .header__profile__for__user {
+        margin-bottom: 30px;
+    }
+
+    .block__for__btns__section__profile__for__user {
+        width: 285px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .btn__header__profile__for__user {
+        width: 100%;
+        text-align: center;
+    }
+
+    .btn__block__for__btns__section__profile__for__user {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .section__profile__for__user {
+        width: 300px;
+    }
+
+    /* Update profile */
+
+    .form__info__about__user__profile__for__user {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .btns__btn__for__edit__save__user {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+

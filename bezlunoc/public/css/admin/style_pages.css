@@ -1,0 +1,20 @@
+.section__for__pages__admin {
+    margin: 80px 0 0 0;
+    padding-bottom: 80px;
+}
+
+.header__section__for__content__pages__index__admin {
+    font-size: 18px;
+    color: rgba(208, 208, 208, 0.4);
+    margin-bottom: 60px;
+}
+
+.block__for__btn__pages__admin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btn__for__pages__admin {
+    margin-right: 30px;
+}

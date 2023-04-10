@@ -1,0 +1,143 @@
+.section__record__for__user {
+    width: 1200px;
+    margin: 160px auto 0 auto;
+}
+
+.form__section__record__for__user {
+    width: 340px;
+    box-shadow: 0 0 10px 0 rgba(208, 208, 208, 0.4);
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.header__section__record__for__user {
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+    font-weight: 500;
+}
+
+.custom__input__date__record__for__user {
+    width: 300px;
+    background: #151515;
+    border: 1px solid #D0D0D0;
+    color: #D0D0D0;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.custom__input__date__record__for__user::-webkit-calendar-picker-indicator {
+    background-color: #D0D0D0;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 1px;
+}
+
+.block__custom__input__for__record__user {
+    display: flex;
+    flex-direction: column;
+}
+
+.label__custom__input__for__record__user {
+    margin: 20px 0 10px 0;
+    color: #D0D0D0;
+}
+
+.custom__input__for__record__user {
+    background: #151515;
+    border: 1px solid #D0D0D0;
+    border-radius: 3px;
+    padding: 10px;
+    color: #D0D0D0;
+    cursor: pointer;
+}
+
+.block__custom__input__for__record__user select {
+    appearance: none;
+    background: url('/image/icons/downArrow.png') #151515 no-repeat 98% 50%;
+    background-size: 20px;
+}
+
+.block__for__btn__section__record__for__user {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.avg__price__section__record__for__user {
+    font-size: 14px;
+    margin-top: 10px;
+    color: rgba(208, 208, 208, 0.5);
+}
+
+.btn__return__to__back__record {
+    color: #D0D0D0;
+    background: #151515;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 10px 33px;
+    border: 1px solid #FFB56A;
+}
+
+.btn__return__to__back__record:hover {
+    color: #D0D0D0;
+    background: #101010;
+}
+
+.btn__section__record__for__user {
+    color: #D0D0D0;
+    background: #151515;
+    border: 1px solid #8FB5FE;
+    border-radius: 5px;
+    padding: 10px 33px;
+}
+
+.btn__section__record__for__user:hover {
+    background: #101010;
+}
+
+@media (max-width: 1200px) {
+    .section__record__for__user {
+        width: 1000px;
+        margin: 120px auto 0 auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    .section__record__for__user {
+        width: 700px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section__record__for__user {
+        width: 400px;
+    }
+}
+
+@media (max-width: 425px) {
+    .section__record__for__user {
+        width: 300px;
+        margin: 80px auto 0 auto;
+    }
+
+    .form__section__record__for__user {
+        width: 300px;
+    }
+
+    .custom__input__date__record__for__user {
+        width: 260px;
+    }
+
+    .block__for__btn__section__record__for__user {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .responsive__btn__return__to__back__record {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,321 @@
+.section__for__gallery__admin {
+    margin: 80px 0 0 0;
+    padding-bottom: 80px;
+}
+
+.header__section__for__content__gallery__admin {
+    font-size: 18px;
+    color: rgba(208, 208, 208, 0.4);
+}
+
+.block__for__header__section__for__content__gallery__admin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* Index */
+
+.block__for__btn__for__add__admin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block__for__count__tattoos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* Table */
+
+.table__custom__gallery__for__admin {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.photo__work__section__gallery__admin {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 1px;
+}
+
+.table__custom__gallery__for__admin th {
+    font-weight: 400;
+    padding: 10px 0;
+    border-bottom: 1px solid #D0D0D0;
+}
+
+.table__custom__gallery__for__admin td {
+    border-bottom: 1px solid #D0D0D0;
+    padding: 10px 0;
+}
+
+/* Sort */
+
+.filter__in__section__gallery__admin {
+    display: flex;
+    flex-direction: row;
+}
+
+.header__filter__in__section__gallery__admin {
+    font-size: 16px;
+    margin-right: 10px;
+    color: rgba(208, 208, 208, 0.4);
+}
+
+.block__for__custom__check__admin {
+    display: flex;
+    flex-direction: row;
+}
+
+.block__for__input__custom__filter__in__section__gallery {
+    position: relative;
+    margin-left: 15px;
+}
+
+.input__custom__filter__in__section__gallery {
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+}
+
+.label__custom__filter__in__section__gallery {
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+.label__custom__filter__in__section__gallery:before {
+    content: "";
+    display: block;
+    width: 17px;
+    height: 17px;
+    border: 1px solid #D0D0D0;
+    background-color: #D0D0D0;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    transition: border .1s linear;
+    margin-top: 3px;
+}
+
+.label__custom__filter__in__section__gallery:after {
+    content: "";
+    display: block;
+    width: 9px;
+    height: 9px;
+    background-color: #151515;
+    border-radius: 50%;
+    opacity: 0;
+    position: absolute;
+    top: 7px;
+    left: 4px;
+    z-index: 2;
+    transition: opacity .1s linear;
+}
+
+.input__custom__filter__in__section__gallery:checked + .label__custom__filter__in__section__gallery:before {
+    border-color: #151515;
+}
+
+.input__custom__filter__in__section__gallery:checked + .label__custom__filter__in__section__gallery:after {
+    opacity: 1;
+}
+
+/* Edit */
+
+.block__for__header__section__for__content__edit__gallery__admin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.content__section__for__gallery__admin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img__edit__tattoo_admin {
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.form__section__for__gallery__admin {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.block__custom__input__edit__tattoo__admin {
+    display: flex;
+    flex-direction: column;
+}
+
+.label__custom__input__edit__tattoo__admin {
+    margin: 20px 0 10px 0;
+    color: #D0D0D0;
+}
+
+.custom__input__edit__tattoo__admin {
+    background: #151515;
+    border: 1px solid #D0D0D0;
+    border-radius: 3px;
+    padding: 10px;
+    color: #D0D0D0;
+}
+
+.block__input__file__custom__wrapper {
+    width: 100%;
+    position: relative;
+    margin: 25px 0 0 0;
+}
+
+.input__file__custom__wrapper {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+
+.span__for__input__file__custom__wrapper {
+    height: 46px;
+    width: 46px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #D0D0D0;
+}
+
+.text__for__input__file__custom__wrapper {
+    line-height: 1;
+    margin-top: 1px;
+}
+
+.label__for__input__file__custom__wrapper {
+    max-width: 600px;
+    height: 46px;
+    background: #151515;
+    color: #D0D0D0;
+    border: 1px solid #D0D0D0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.img__for__input__file__custom__wrapper {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+.block__custom__input__edit__tattoo__admin select {
+    appearance: none;
+    background: url('/image/icons/downArrow.png') #151515 no-repeat 98% 50%;
+    background-size: 20px;
+}
+
+/* Add */
+
+.content__section__add__for__gallery__admin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.block__custom__input__add__tattoo__admin {
+    display: flex;
+    flex-direction: column;
+}
+
+.label__custom__input__add__tattoo__admin {
+    margin: 20px 0 10px 0;
+    color: #D0D0D0;
+}
+
+.custom__input__add__tattoo__admin {
+    background: #151515;
+    border: 1px solid #D0D0D0;
+    border-radius: 3px;
+    padding: 10px;
+    color: #D0D0D0;
+}
+
+.block__input__file__add__custom__wrapper {
+    width: 100%;
+    position: relative;
+    margin: 25px 0 0 0;
+}
+
+.input__file__add__custom__wrapper {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+
+.span__for__input__file__add__custom__wrapper {
+    height: 46px;
+    width: 46px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #D0D0D0;
+}
+
+.text__for__input__file__add__custom__wrapper {
+    line-height: 1;
+    margin-top: 1px;
+}
+
+.label__for__input__file__add__custom__wrapper {
+    max-width: 600px;
+    height: 46px;
+    background: #151515;
+    color: #D0D0D0;
+    border: 1px solid #D0D0D0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.img__for__input__file__add__custom__wrapper {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+.prev__img__create__tattoo__admin {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+.block__custom__input__add__tattoo__admin select {
+    appearance: none;
+    background: url('/image/icons/downArrow.png') #151515 no-repeat 98% 50%;
+    background-size: 20px;
+}

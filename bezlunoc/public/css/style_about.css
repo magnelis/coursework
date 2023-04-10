@@ -1,0 +1,201 @@
+/* About */
+
+.section__for__content__about {
+    width: 1200px;
+    margin: 130px auto 0 auto;
+}
+
+.block__spacing__section__for__block__content__about {
+    margin-bottom: 80px;
+}
+
+.text__section__for__block__content__about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 80px;
+}
+
+.header__section__for__content__about {
+    font-size: 18px;
+    color: rgba(208, 208, 208, 0.4);
+}
+
+.description__section__for__block__content__about {
+    font-weight: 300;
+    text-align: justify;
+}
+
+.imgs__one__section__for__block__content__about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 350px;
+    grid-gap: 15px;
+}
+
+.img__one__one__section__for__block__content__about {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 5px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.img__two__one__section__for__block__content__about {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.img__three__one__section__for__block__content__about {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.img__four__one__section__for__block__content__about {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 5px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.imgs__second__section__for__block__content__about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 700px;
+    grid-gap: 15px;
+}
+
+.img__second__section__for__block__content__about {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+@media (max-width: 1200px) {
+
+    .section__for__content__about {
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .section__for__content__about {
+        width: 700px;
+    }
+
+    .img__one__one__section__for__block__content__about {
+        height: 500px;
+    }
+
+    .img__four__one__section__for__block__content__about {
+        height: 500px;
+    }
+
+    .imgs__second__section__for__block__content__about {
+        grid-template-rows: 500px;
+    }
+
+    .img__second__section__for__block__content__about {
+        height: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .section__for__content__about {
+        width: 400px;
+    }
+
+    .text__section__for__block__content__about {
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 20px;
+    }
+
+    .header__section__for__content__about {
+        margin-bottom: 20px;
+    }
+
+    .imgs__one__section__for__block__content__about {
+        grid-template-rows: 250px;
+    }
+
+    .img__one__one__section__for__block__content__about {
+        width: 100%;
+        height: 400px;
+    }
+
+    .img__two__one__section__for__block__content__about {
+        height: 250px;
+    }
+
+    .img__three__one__section__for__block__content__about {
+        height: 250px;
+    }
+
+    .img__four__one__section__for__block__content__about {
+        height: 400px;
+    }
+
+    .imgs__second__section__for__block__content__about {
+        grid-template-rows: 300px;
+    }
+
+    .img__second__section__for__block__content__about {
+        height: 300px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .section__for__content__about {
+        width: 300px;
+    }
+
+    .imgs__one__section__for__block__content__about {
+        grid-template-rows: 150px;
+    }
+
+    .img__one__one__section__for__block__content__about {
+        height: 300px;
+    }
+
+    .img__two__one__section__for__block__content__about {
+        height: 150px;
+    }
+
+    .img__three__one__section__for__block__content__about {
+        height: 150px;
+    }
+
+    .img__four__one__section__for__block__content__about {
+        height: 300px;
+    }
+
+    .imgs__second__section__for__block__content__about {
+        grid-template-rows: 200px;
+    }
+
+    .img__second__section__for__block__content__about {
+        height: 200px;
+    }
+}

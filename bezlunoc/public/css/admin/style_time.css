@@ -1,0 +1,124 @@
+.section__for__time__admin {
+    margin: 80px 0 0 0;
+    padding-bottom: 80px;
+}
+
+.block__for__header__for__time__admin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header__section__for__content__time__index__admin {
+    font-size: 18px;
+    color: rgba(208, 208, 208, 0.4);
+}
+
+.header__section__for__content__time__admin {
+    font-size: 18px;
+    color: rgba(208, 208, 208, 0.4);
+}
+
+.block__for__btn__for__add__time__admin {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* Table */
+
+.table__custom__time__for__admin {
+    width: 100%;
+}
+
+.table__custom__time__for__admin th {
+    font-weight: 400;
+    padding: 10px 0;
+    border-bottom: 1px solid #D0D0D0;
+}
+
+.table__custom__time__for__admin td {
+    border-bottom: 1px solid #D0D0D0;
+    padding: 15px 0;
+    height: 70px;
+}
+
+/* Add */
+
+.block__for__header__section__for__content__time__admin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.header__section__for__content__time__admin {
+    font-size: 18px;
+    color: rgba(208, 208, 208, 0.4);
+}
+
+.block__for__content__time__admin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img__section__for__time__admin {
+    width: 800px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.btn__for__add__time__admin{
+    width: 250px;
+    height: 46px;
+}
+
+.form__section__for__time__admin {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content__section__for__time__admin {
+    display: flex;
+    flex-direction: column;
+}
+
+.error__content__section__time__for__timeline__admin {
+    margin-bottom: 20px;
+}
+
+.block__for__custom__input__time__admin {
+    margin-bottom: 30px;
+}
+
+.custom__input__time__admin {
+    width: 250px;
+    background: #151515;
+    border: 1px solid #D0D0D0;
+    color: #D0D0D0;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.custom__input__time__admin::-webkit-calendar-picker-indicator {
+    background-color: #D0D0D0;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 1px;
+}
+
+.btn__for__time__admin {
+    margin-top: 30px;
+    width: 250px;
+}

@@ -1,0 +1,114 @@
+.section__for__mainPage__admin {
+    margin: 80px 0 0 0;
+    padding-bottom: 80px;
+}
+
+.block__for__header__for__mainPage__admin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.header__section__for__content__mainPage__index__admin {
+    font-size: 18px;
+    color: rgba(208, 208, 208, 0.4);
+}
+
+.header__section__for__content__mainPage__admin {
+    font-size: 18px;
+    color: rgba(208, 208, 208, 0.4);
+    margin-bottom: 30px;
+}
+
+.block__for__btn__for__add__mainPage__admin {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 35px;
+    height: 40px;
+}
+
+.btn__mainPage__edit {
+    width: 20px;
+    height: 20px;
+    background-image: url('/image/icons/edit.png');
+    background-size: cover;
+    margin: 0 20px;
+}
+
+.btn__mainPage__edit:hover {
+    background-image: url('/image/icons/edit_hover.png');
+}
+
+.btn__mainPage__delete {
+    width: 23px;
+    height: 23px;
+    border: none;
+    margin: 0 20px;
+    background: url('/image/icons/delete.png') #151515;
+    background-size: cover;
+}
+
+.btn__mainPage__delete:hover {
+    background-image: url('/image/icons/delete_hover.png');
+}
+
+/* Table */
+
+.table__custom__mainPage__for__admin {
+    width: 100%;
+}
+
+.table__custom__mainPage__for__admin th {
+    font-weight: 600;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(208, 208, 208, 0.7);
+}
+
+.table__custom__mainPage__for__admin td {
+    border-bottom: 1px solid rgba(208, 208, 208, 0.7);
+    padding: 30px 0;
+    text-align: justify;
+}
+
+/* Add, Edit */
+
+.form__section__for__styles__admin {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content__section__for__styles__admin {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.error__content__section__for__styles__admin {
+    margin-bottom: 20px;
+}
+
+.block__custom__input__styles__admin {
+    display: flex;
+    flex-direction: column;
+}
+
+.label__custom__input__styles__admin {
+    margin: 20px 0 10px 0;
+    color: #D0D0D0;
+}
+
+.custom__input__styles__admin {
+    background: #151515;
+    border: 1px solid #D0D0D0;
+    border-radius: 3px;
+    padding: 10px;
+    color: #D0D0D0;
+    overflow: hidden;
+}

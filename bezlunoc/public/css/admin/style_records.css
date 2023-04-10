@@ -1,0 +1,61 @@
+.section__for__records__admin {
+    margin: 80px 0 0 0;
+    padding-bottom: 80px;
+}
+
+.block__for__header__for__records__admin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.header__section__for__content__records__index__admin {
+    font-size: 18px;
+    color: rgba(208, 208, 208, 0.4);
+}
+
+/* Tab */
+
+.tab__header__records__admin {
+    border-bottom: 1px solid rgba(208, 208, 208, 0.1);
+}
+
+.tab__header__item__records__admin {
+    display: inline-block;
+    padding: 10px 10px 10px 0;
+    cursor: pointer;
+    color: rgba(208, 208, 208, 0.5);
+}
+
+.tab__header__item__records__admin.active {
+    color: #D0D0D0;
+}
+
+.tab__body__item__records__admin {
+    display: none;
+}
+
+.tab__body__item__records__admin.active {
+    display: block;
+}
+
+/* Table */
+
+.table__custom__records__for__admin {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.table__custom__records__for__admin th {
+    font-weight: 500;
+    padding: 10px 0;
+    border-bottom: 1px solid #D0D0D0;
+}
+
+.table__custom__records__for__admin td {
+    border-bottom: 1px solid #D0D0D0;
+    padding: 15px 0;
+    height: 70px;
+}
